@@ -42,11 +42,11 @@ export function DropdownMenu() {
       >
         <div className="menu">
           <DropdownItem
-            leftIcon={<CogIcon />}
+            leftIcon={<BoltIcon />}
             rightIcon={<ChevronIcon />}
-            goToMenu="settings"
+            goToMenu="tutorials"
           >
-            Settings
+            Tutorials
           </DropdownItem>
           <DropdownItem
             leftIcon="🦧"
@@ -59,7 +59,7 @@ export function DropdownMenu() {
       </CSSTransition>
 
       <CSSTransition
-        in={activeMenu === "settings"}
+        in={activeMenu === "tutorials"}
         timeout={500}
         classNames="menu-secondary"
         unmountOnExit
@@ -67,7 +67,7 @@ export function DropdownMenu() {
       >
         <div className="menu">
           <DropdownItem goToMenu="main" leftIcon={<ArrowIcon />}>
-            <h2>My Tutorial</h2>
+            <h2>Tutorials</h2>
           </DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>HTML</DropdownItem>
           <DropdownItem leftIcon={<BoltIcon />}>CSS</DropdownItem>

@@ -6,6 +6,7 @@ import "./index.css";
 function Navbar(props) {
   return (
     <nav className="navbar">
+      <h1 className="navbar-title">Multilevel dropdown menu demo</h1>
       <ul className="navbar-nav">{props.children}</ul>
     </nav>
   );

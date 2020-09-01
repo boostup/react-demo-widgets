@@ -6,6 +6,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <p style={{ padding: "1rem" }}>
+        Click on the last button to try the multi-level dropdown menu.
+      </p>
     </div>
   );
 }

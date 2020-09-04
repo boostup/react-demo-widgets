@@ -1,4 +1,4 @@
-[Live Demo](https://laughing-pare-6fcdf7.netlify.app/)
+[Live Demo](https://nervous-wescoff-fd3b90.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -36,11 +36,7 @@ class Navbar extends Component {
 
     return (
       <div className={classes.root}>
-        <AppBar
-          position="static"
-          color="primary"
-          color={isDarkMode ? "default" : "primary"}
-        >
+        <AppBar position="static" color={isDarkMode ? "default" : "primary"}>
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit">
               <span>{flag}</span>

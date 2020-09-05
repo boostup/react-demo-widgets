@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
-import { ArrowIcon, ChevronIcon, CogIcon, BoltIcon } from "../Icons";
+import { ArrowIcon, ChevronIcon, BoltIcon } from "../Icons";
 import "./index.css";
 
 export function DropdownMenu() {
@@ -19,6 +19,7 @@ export function DropdownMenu() {
 
   function DropdownItem(props) {
     return (
+      // eslint-disable-next-line
       <a
         href="#"
         className="menu-item"

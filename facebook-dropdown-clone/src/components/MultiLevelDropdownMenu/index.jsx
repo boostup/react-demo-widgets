@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useRef, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 import { ArrowIcon, ChevronIcon, BoltIcon } from "../Icons";
@@ -19,8 +20,8 @@ export function DropdownMenu() {
 
   function DropdownItem(props) {
     return (
-      // eslint-disable-next-line
       <a
+        href="#"
         className="menu-item"
         onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
       >

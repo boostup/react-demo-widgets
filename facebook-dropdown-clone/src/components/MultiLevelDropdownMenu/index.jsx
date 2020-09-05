@@ -21,7 +21,6 @@ export function DropdownMenu() {
     return (
       // eslint-disable-next-line
       <a
-        href="#"
         className="menu-item"
         onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}
       >
